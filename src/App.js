@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Chat from "./pages/Chat";
-import ProtectedRoute from "./ProtectedRoute"; // 👈 make sure this exists
+import ProtectedRoute from "./ProtectedRoute";
 
 function App() {
   const rawUser = localStorage.getItem("user");
